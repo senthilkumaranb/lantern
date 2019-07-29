@@ -1,0 +1,1305 @@
+{
+  "name": "insurance-voice-bot",
+  "intents": [
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "help"
+        },
+        {
+          "text": "i need a help"
+        },
+        {
+          "text": "sos"
+        },
+        {
+          "text": "emergency"
+        },
+        {
+          "text": "someone is hurt"
+        },
+        {
+          "text": "i am not doing well"
+        },
+        {
+          "text": "I am hurt"
+        },
+        {
+          "text": "emergencies"
+        },
+        {
+          "text": "urgent help needed"
+        },
+        {
+          "text": "can you help me?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "exiting",
+      "examples": [
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "no thanks"
+        },
+        {
+          "text": "nothing else"
+        },
+        {
+          "text": "nothing else for now"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "thats it"
+        },
+        {
+          "text": "thank you very much"
+        }
+      ]
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "How can you help?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "reply_details",
+      "examples": [
+        {
+          "text": "I am planning to travel *"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "* years old"
+        },
+        {
+          "text": "* years"
+        },
+        {
+          "text": "my age is *"
+        },
+        {
+          "text": "my name is *"
+        },
+        {
+          "text": "my plan is *"
+        },
+        {
+          "text": "with *"
+        },
+        {
+          "text": "its *"
+        },
+        {
+          "text": "it's *"
+        },
+        {
+          "text": "I am travelling *"
+        },
+        {
+          "text": "it is *"
+        },
+        {
+          "text": "i am planning *"
+        },
+        {
+          "text": "i am called *"
+        },
+        {
+          "text": "i am *"
+        },
+        {
+          "text": "* call me *"
+        }
+      ]
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "welcome_greetings",
+      "examples": [
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "gm"
+        },
+        {
+          "text": "Hi!"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "gn"
+        },
+        {
+          "text": "Hello!"
+        },
+        {
+          "text": "Hi *"
+        }
+      ]
+    },
+    {
+      "intent": "depart_greetings",
+      "examples": [
+        {
+          "text": "no"
+        },
+        {
+          "text": "nice"
+        },
+        {
+          "text": "later"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "cool"
+        },
+        {
+          "text": "I will get back to you later. Thank you"
+        },
+        {
+          "text": "ok thanks. I will get back to you later"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "thanks a lot"
+        },
+        {
+          "text": "awesome"
+        },
+        {
+          "text": "tc"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "take care"
+        }
+      ]
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "comeback",
+      "examples": [
+        {
+          "text": "return *"
+        },
+        {
+          "text": "No, i have no such plans"
+        },
+        {
+          "text": "* comeback *"
+        },
+        {
+          "text": "Not now"
+        },
+        {
+          "text": "* I have no plan for further journey*"
+        },
+        {
+          "text": "*return back*"
+        },
+        {
+          "text": "come back *"
+        },
+        {
+          "text": "* I will return*"
+        },
+        {
+          "text": "* no further plan*"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "male",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "female",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "Response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "I don't want to",
+            "is it required?",
+            "later",
+            "n",
+            "nah",
+            "Negative",
+            "never",
+            "NO",
+            "nope",
+            "nopes",
+            "no please",
+            "Not",
+            "nothing",
+            "not interested",
+            "not sure",
+            "please no"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": [
+            "Alright",
+            "as you wish",
+            "Certainly",
+            "cool",
+            "Definitely",
+            "done",
+            "fine",
+            "goahead",
+            "go ahead",
+            "go on",
+            "of course",
+            "Ok",
+            "okay",
+            "okk",
+            "please",
+            "shoot",
+            "sure",
+            "y",
+            "ya",
+            "yaa",
+            "yea",
+            "yeah",
+            "yess",
+            "yes you can",
+            "yo",
+            "yup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "bye",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bye",
+          "synonyms": [
+            "ciao",
+            "have a good day",
+            "thank you"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "thanks",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "symptoms",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "loose stools",
+          "synonyms": [
+            "stools",
+            "motion"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cramp",
+          "synonyms": [
+            "muscle cramp",
+            "cramps"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "weakness",
+          "synonyms": [
+            "weak",
+            "feeling weak"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rash",
+          "synonyms": [
+            "rash",
+            "skin rash",
+            "skin itching",
+            "rashes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sweating",
+          "synonyms": [
+            "sweat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "headache",
+          "synonyms": [
+            "head pain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nausea",
+          "synonyms": [
+            "vomit",
+            "puking out",
+            "out"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "abdomen pain",
+          "synonyms": [
+            "adbomen pain",
+            "tummy pain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fever",
+          "synonyms": [
+            "high temperature",
+            "running temperature"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "This is the bot for the Code Pattern",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "cholera",
+      "output": {
+        "text": {
+          "values": [
+            "Your symptoms are like you are having cholera, do drink safe water, eat cook vegetables only, avoid dairy foods, avoid sea food and go near to heath camp on 31st street, 100 metres from your location"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1529676597774",
+      "metadata": {},
+      "conditions": "@symptoms:nausea && @symptoms:(loose stools)",
+      "dialog_node": "node_3_1560248812753",
+      "previous_sibling": "node_2_1560248717166"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1529676597774",
+      "metadata": {},
+      "variable": "$term_insurance",
+      "dialog_node": "slot_7_1529676662396",
+      "previous_sibling": "node_1_1560314838587"
+    },
+    {
+      "type": "standard",
+      "title": "de-hydration",
+      "output": {
+        "text": {
+          "values": [
+            "Your symptoms are like you are dehydrating, please drink plenty of fluids and go near to heath camp on 31st street, 100 metres from your location"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1529676597774",
+      "metadata": {},
+      "conditions": "@symptoms:weakness && @symptoms:cramp",
+      "dialog_node": "node_2_1560248717166",
+      "previous_sibling": "node_1_1560248398596"
+    },
+    {
+      "type": "standard",
+      "title": "typhoid",
+      "output": {
+        "text": {
+          "values": [
+            "Your symptoms are like you are having typhoid, please visit a health camp at the end of your street, 31st street. Drink safe water and avoid raw vegetables and fruits."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1529676597774",
+      "metadata": {},
+      "conditions": "@symptoms:fever && @symptoms:nausea && @symptoms:rash",
+      "dialog_node": "node_4_1560248915752",
+      "previous_sibling": "node_3_1560248812753"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Your symptoms are like you are having typhoid, please visit a health camp at the end of your street, 31st street. Drink safe water and avoid raw vegetables and fruits."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1529676597774",
+      "metadata": {},
+      "conditions": "@symptoms:fever",
+      "dialog_node": "node_1_1560314838587",
+      "previous_sibling": "node_4_1560248915752"
+    },
+    {
+      "type": "standard",
+      "title": "diarrhea",
+      "output": {
+        "text": {
+          "values": [
+            "Your symptoms are like you are having diarrhea, please drink plenty of fluids, avoid coffee, do not drink apple juice, wash hands with soap"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1529676597774",
+      "metadata": {},
+      "conditions": "@symptoms:(abdomen pain) && @symptoms:fever && @symptoms:nausea",
+      "dialog_node": "node_1_1560248398596"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1529676662396",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1529676662396",
+      "previous_sibling": "handler_8_1529676662396"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_7_1529676662396",
+      "context": {
+        "term_insurance": "#term_insurance"
+      },
+      "conditions": "#term_insurance",
+      "event_name": "input",
+      "dialog_node": "handler_8_1529676662396"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Sorry, I could not understand your response. Please try again."
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1477483112882"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1477482550429",
+      "previous_sibling": "node_3_1529907741980"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Have a good day."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_3_1529774008816",
+      "previous_sibling": "node_3_1477483112882"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Hi! How can I help you?"
+      },
+      "conditions": "#welcome_greetings",
+      "dialog_node": "node_3_1477483112882",
+      "previous_sibling": "node_6_1529676597774"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Ok Have a great day."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#depart_greetings || #exiting",
+      "dialog_node": "node_3_1529907741980",
+      "previous_sibling": "node_3_1529774008816"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Can you tell me the symptoms you have?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#help",
+      "digress_in": "returns",
+      "dialog_node": "node_6_1529676597774",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1477482535266"
+    },
+    {
+      "type": "standard",
+      "title": "conversation_start",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. How can I help you?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "conversation_start",
+      "dialog_node": "node_1_1477482535266"
+    }
+  ],
+  "workspace_id": "d5e55e84-1e75-4651-a7af-43dd59bd57dc",
+  "counterexamples": [
+    {
+      "text": "Tell me what is basic life cover"
+    }
+  ],
+  "system_settings": {
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
