@@ -1,0 +1,7 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  name: lanternbot
+  disk_quota: 2G
+  buildpack: https://github.com/cloudfoundry/python-buildpack.git
